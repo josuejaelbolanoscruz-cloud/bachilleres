@@ -1,127 +1,361 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-	<meta charset="UTF-8">
-	<title>Proyecto Floreria</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención de las Drogadicciones | Colegio de Bachilleres</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
- <header class="encabezado" role="banner">
- 	<div class="contenedor">
- 		<a href="https://www.ventas@chapomart.com.mx" class="logo">
- 			<img src="imagen/tiendita.jpg" alt="logotipo de la tienda">
- 		</a>
- 		<nav role ="navigation">
- 			<ul>
- 				<li><a href="#">Nosotros</a></li>
- 				<li><a href="#">Servicio</a></li>
- 				<li><a href="#">Contactanos</a></li>
- 			</ul>
- 		</nav>
- 	</div>
- </header>
- <!--fin-->
- <div class="presentacion">
- 	<div class="contenedor">
- 		<div class="introduccion-presentacion">
- 			<h1>DROGACCION<br><span>cdmx</span></h1>
- 			<a href="https://enciclovida.mx" class="aprender-mas">cristal</a>
- 		</div>
- 		<img src="imagen/florr.png" alt="tienda de flores">
- 	</div>
- </div> 
-    <!-- fin de presentacion-->
- <section class="acceso-rapido">
- 		<div class="contenedor">
- 			<h2>Acceso rapido</h2>
-              <ul>
-                
- 				<figure>
- 					<a href="#"><img src="imagen/icono1.jpg" alt="Nosotros"></a>
- 					<figcaption><h3><a href="#">Nosotros</a></h3></figcaption>
- 				</figure>
- 				<figure>
- 					<a href="#"><img src="imagen/icono2.jpg" alt="Servicio"></a>
- 					<figcaption><h3><a href="#">Servicio</a></h3></figcaption>
- 				</figure>
- 				<figure>
- 					<a href="#"><img src="imagen/icono3.jpg" alt="Ubicanos"></a>
- 					<figcaption><h3><a href="#">Ubicanos</a></h3></figcaption>
- 				</figure>
- 				<figure>
- 					<a href="#"><img src="imagen/icono4.jpg" alt="Contactanos"></a>
- 					<figcaption><h3><a href="#">Contactanos</a></h3></figcaption>
- 				</figure>
-                </ul>
- 		</div>
- 	</section>  
-    <!-- ---------fin -->
- 	<div class="bloque-contenido">
- 		<div class="contenedor">
- 			<main class="articulos" role="main">
- 				<h2>Ultimas noticias</h2>
- 				<article>
- 					<img src="imagen/gar.png" alt="Causa">
- 					<h1><a href="#">Causa</a></h1>
- 					<p>Cuidados Básicos <br>Iluminación: Requiere exposición a pleno sol o sombra parcial muy iluminada para florecer de forma. <br></óptima>Riego: Debe ser regular, manteniendo el suelo húmedo pero con un excelente drenaje para evitar que las raíces se pudran.<br>Suelo: Prospera mejor en suelos de neutros a ligeramente ácidos y ricos en materia orgánica.<br>Clima: Es sensible a las heladas fuertes; prefiere los ambientes cálidos y tropicales.
- 					</p>
- 				</article>
- 				<article>
- 					<img src="imagen/rosa.jpg" alt="Problema">
- 					<h1><a href="#">Problema Social</a></h1>
- 					<p>Cuidados básicos para el Rosal<br>Para mantener este tipo de planta saludable, vigorosa y con floraciones constantes, se deben seguir estas pautas esenciales de jardinería:Luz solar: Requiere un mínimo de 6 horas de sol directo al día para florecer adecuadamente.Riego: Debe ser profundo pero espaciado. Es vital regar directamente a la base y evitar mojar las hojas o capullos para prevenir la aparición de hongos.Suelo y drenaje: Prefiere suelos fértiles, ricos en materia orgánica y con un excelente drenaje que evite el encharcamiento de las raíces.Poda: Se realiza principalmente a finales del invierno para eliminar ramas muertas o enfermas, y durante la época de floración se deben retirar las rosas marchitas para estimular nuevos brotes.
- 					</p>
- 				</article>
- 				<article>
- 					<img src="imagen/droga.jpg" alt="soluciones">
- 					<h1><a href="#">Posible soluciones</a></h1>
- 					<p>Heliotropismo: Las plantas jóvenes realizan un movimiento diario orientando sus capítulos flores de este a oeste siguiendo la ruta del sol, regresando por la noche hacia el este. Al madurar y florecer por completo, este movimiento cesa y los tallos se quedan fijos apuntando típicamente hacia el oriente. Estructura botánica: Cada "flor" de girasol es en realidad una inflorescencia (capítulo) compuesta por cientos de diminutas flores individuales llamadas flósculos que se desarrollan en un patrón geométrico espiral perfecto. Origen: Es una especie nativa del continente americano (norte de México y sur de Estados Unidos), domesticada hace miles de años por los pueblos indígenas antes de ser introducida en Europa. Aprovechamiento: Además de su uso ornamental, es un cultivo agrícola sumamente valioso por la extracción de aceite de girasol y el consumo directo de sus semillas (pipas).
- 					</p>
- 				</article>
- 			</main>
-            <aside class="complementario" role="complementary">
-         <h2>Proximos eventos</h2>
-         <ul>
-            <li><a href="#">Algunos eventos </a></li>
-            <li><a href="#">Drogas </a></li>
-            <li><a href="#">Adicciones </a></li>
-            <li><a href="#">Psicologia </a></li>
-            <li><a href="#">Foros </a></li>
-            <li><a href="#">Ayuda </a></li>
-            <li><a href="#">Información </a></li>
-         </ul>
-      </aside>
-     </div>
- 	</div> 
-<!-- FIN DE BLOQUE-CONTENIDO -->
-<section class="suscripcion">
+
+<header class="encabezado" role="banner">
     <div class="contenedor">
-        <h2>Solicita ayuda</h2>
-        <form action="#">
-            <input type="text" name="nombre" placeholder="Ingresa tu nombre..." required>
-            <input type="email" name="email" placeholder="Ingresa tu correo..." required>
-            <input type="submit" name="valor" value="Registrate">
-        </form>
-    </div>
-</section> <!-- FIN SUSCRIPCION -->
-<footer class="piedepagina" role="contentinfo">
-    <div class="contenedor">
-        <small>Copyright @ 2026 Las drogas te matan</small>
-        <nav>
+
+        <a href="index.html" class="logo">
+            <img src="imagen/tiendita.jpg" alt="Logotipo del proyecto">
+        </a>
+
+        <nav role="navigation">
             <ul>
-                <li><a href="#">Politicas del sitio</a></li>
-                <li><a href="#">Preguntas frecuentes</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
             </ul>
         </nav>
+
     </div>
-</footer>
-           <!--  fin pie de pagina  -->
-<div class="social">
-    <a href="#" title="FaceBook"><img src="imagen/face.jpg" alt="facebook"></a>
-    <a href="#" title="Youtube"><img src="imagen/you.jpg" alt="youtube"></a>
-    <a href="#" title="twitter"><img src="imagen/twit.jpg" alt="twitter"></a>
+</header>
+
+
+
+<div class="presentacion">
+
+    <div class="contenedor">
+
+        <div class="introduccion-presentacion">
+
+            <h1>
+                PREVENCIÓN DE LAS
+                <br>
+                <span>DROGADICCIONES</span>
+            </h1>
+
+            <p>
+                La prevención de las adicciones dentro del Colegio de Bachilleres
+                busca informar a los estudiantes sobre los riesgos físicos,
+                emocionales y sociales que provoca el consumo de drogas,
+                promoviendo hábitos saludables y una cultura de autocuidado.
+            </p>
+
+            <a href="https://www.gob.mx/salud" target="_blank" class="aprender-mas">
+                Más información
+            </a>
+
+        </div>
+
+        <img src="imagen/florr.png" alt="Prevención de las adicciones">
+
+    </div>
+
 </div>
-  <!--  fin social -->
+
+
+
+<section class="acceso-rapido">
+
+    <div class="contenedor">
+
+        <h2>Acceso rápido</h2>
+
+        <ul>
+
+            <figure>
+
+                <a href="#nosotros">
+                    <img src="imagen/icono1.jpg" alt="Prevención">
+                </a>
+
+                <figcaption>
+                    <h3>
+                        <a href="#nosotros">
+                            Prevención
+                        </a>
+                    </h3>
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <a href="#informacion">
+                    <img src="imagen/icono2.jpg" alt="Información">
+                </a>
+
+                <figcaption>
+                    <h3>
+                        <a href="#informacion">
+                            Información
+                        </a>
+                    </h3>
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <a href="#eventos">
+                    <img src="imagen/icono3.jpg" alt="Eventos">
+                </a>
+
+                <figcaption>
+                    <h3>
+                        <a href="#eventos">
+                            Eventos
+                        </a>
+                    </h3>
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <a href="#contacto">
+                    <img src="imagen/icono4.jpg" alt="Ayuda">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+
+                        <a href="#contacto">
+                            Solicitar ayuda
+                        </a>
+
+                    </h3>
+
+                </figcaption>
+
+            </figure>
+
+        </ul>
+
+    </div>
+
+</section>
+
+
+<div class="bloque-contenido">
+
+<div class="contenedor">
+
+<main class="articulos" role="main" id="informacion">
+
+<h2>Información sobre las Drogadicciones</h2>
+
+<article>
+
+<img src="imagen/gar.png" alt="Factores de riesgo">
+
+<h1>
+<a href="#">
+¿Qué son las drogadicciones?
+</a>
+</h1>
+
+<p>
+Las drogadicciones representan un problema de salud pública que afecta a miles de jóvenes cada año. El consumo de sustancias puede generar dependencia física y psicológica, afectando el rendimiento escolar, las relaciones familiares y la salud.
+</p>
+
+<p>
+En el Colegio de Bachilleres se promueve la prevención mediante campañas informativas, conferencias y actividades que ayudan a los estudiantes a reconocer los riesgos del consumo de drogas y a tomar decisiones responsables.
+</p>
+
+<p>
+Informarse oportunamente permite prevenir situaciones de riesgo y fomentar estilos de vida saludables basados en el deporte, la cultura y la convivencia escolar.
+</p>
+
+</article>
+```
+```html
+<article>
+
+    <img src="imagen/rosa.jpg" alt="Consecuencias">
+
+    <h1>
+        <a href="#">Consecuencias del consumo de drogas</a>
+    </h1>
+
+    <p>
+        El consumo de drogas puede ocasionar problemas físicos y mentales que afectan
+        el desarrollo de los estudiantes. Algunas sustancias alteran el funcionamiento
+        del cerebro, disminuyen la capacidad de aprendizaje y afectan la memoria,
+        provocando un bajo rendimiento escolar.
+    </p>
+
+    <p>
+        Además de los daños a la salud, las adicciones pueden generar conflictos
+        familiares, problemas económicos, violencia y aislamiento social. Muchas
+        personas abandonan sus estudios debido a la dependencia que desarrollan hacia
+        estas sustancias.
+    </p>
+
+    <p>
+        Buscar ayuda a tiempo y recibir orientación profesional aumenta las
+        posibilidades de recuperación y permite que los jóvenes continúen con sus
+        estudios y proyectos de vida.
+    </p>
+
+</article>
+
+<article>
+
+    <img src="imagen/droga.jpg" alt="Prevención">
+
+    <h1>
+        <a href="#">Prevención y apoyo en el Colegio de Bachilleres</a>
+    </h1>
+
+    <p>
+        La mejor forma de prevenir las adicciones es mantenerse informado y participar
+        en actividades deportivas, culturales y académicas que fortalezcan el
+        desarrollo personal de los estudiantes.
+    </p>
+
+    <p>
+        El Colegio de Bachilleres promueve campañas de prevención, talleres y
+        conferencias donde especialistas orientan a los alumnos sobre los riesgos del
+        consumo de drogas y la importancia de cuidar su salud física y emocional.
+    </p>
+
+    <p>
+        Si un estudiante necesita apoyo, es recomendable acudir con docentes,
+        orientadores educativos o instituciones especializadas para recibir atención
+        profesional de manera oportuna.
+    </p>
+
+</article>
+
+</main>
+
+
+
+<aside class="complementario" role="complementary" id="eventos">
+
+<h2>Próximas actividades</h2>
+
+<ul>
+
+<li><a href="#">Conferencia sobre prevención de adicciones</a></li>
+
+<li><a href="#">Taller de salud mental</a></li>
+
+<li><a href="#">Pláticas con especialistas</a></li>
+
+<li><a href="#">Campañas informativas</a></li>
+
+<li><a href="#">Actividades deportivas</a></li>
+
+<li><a href="#">Orientación psicológica</a></li>
+
+<li><a href="#">Atención para estudiantes</a></li>
+
+</ul>
+
+</aside>
+
+</div>
+
+</div>
+
+
+
+<section class="suscripcion" id="contacto">
+
+<div class="contenedor">
+
+<h2>Solicita información o ayuda</h2>
+
+<form action="#" method="post">
+
+<input type="text"
+name="nombre"
+placeholder="Escribe tu nombre..."
+required>
+
+<input type="email"
+name="email"
+placeholder="Escribe tu correo..."
+required>
+
+<input type="submit"
+value="Enviar">
+
+</form>
+
+</div>
+
+</section>
+```
+```html
+
+<footer class="piedepagina" role="contentinfo">
+
+    <div class="contenedor">
+
+        <small>
+            © 2026 Proyecto Escolar | Prevención de las Drogadicciones |
+            Colegio de Bachilleres
+        </small>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="https://www.gob.mx/salud" target="_blank">
+                        Salud
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.gob.mx/conadic" target="_blank">
+                        CONADIC
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contacto">
+                        Contáctanos
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</footer>
+
+
+
+<div class="social">
+
+    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+        <img src="imagen/face.jpg" alt="Facebook">
+    </a>
+
+    <a href="https://www.youtube.com/" target="_blank" title="YouTube">
+        <img src="imagen/you.jpg" alt="YouTube">
+    </a>
+
+    <a href="https://x.com/" target="_blank" title="X">
+        <img src="imagen/twit.jpg" alt="X">
+    </a>
+
+</div>
+
 </body>
 </html>
